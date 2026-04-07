@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 )
 
 // Before Running, In normal PowerShell Session 
-// type this line :- java -jar selenium-server-4.41.0.jar standalone
+// type this line :- java -jar selenium-server-4.41.0.jar standalone on normal cmd
 // and open selenium grid on chrome
 public class TestRunner extends AbstractTestNGCucumberTests 
 {
