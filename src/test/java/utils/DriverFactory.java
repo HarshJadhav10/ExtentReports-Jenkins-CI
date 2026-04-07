@@ -14,6 +14,10 @@ public class DriverFactory
         try 
         {
             ChromeOptions options = new ChromeOptions();
+            
+            // THIS IS THE LINE YOU NEED FOR JENKINS:
+            options.addArguments("--headless=new"); 
+            
             // Connects to your Standalone Grid!
             driver.set(new RemoteWebDriver(new URL("http://localhost:4444"), options));
         } 
